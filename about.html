@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About </title>
+    <link href="vendor\twbs\bootstrap\dist\css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        background-color: #fff; 
+        color: #333; 
+    }
+
+    .video-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 50%; 
+        height: 100vh;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+    .video-bg {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .content-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%; 
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 30px;
+        box-sizing: border-box; 
+        text-align: center;
+        color: #333;
+        font-family: Arial, sans-serif;
+        overflow-y: scroll; 
+        border-radius: 10px;
+    }
+
+    h1, h2, h3 {
+        font-weight: bold; 
+        color: #dc3545; 
+    }
+
+    p {
+        margin: 10px 0;
+        font-size: 18px;
+        line-height: 1.6;
+        
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px; 
+    }
+
+    @media only screen and (max-width: 768px) {
+        .video-container,
+        .content-container {
+            width: 100%; 
+            height: auto;
+            position: relative;
+        }
+
+        .video-bg {
+            position: relative;
+            width: 100%;
+            height: auto;
+            top: 0;
+            left: 0;
+            transform: none;
+        }
+
+        .content-container {
+            top: auto;
+            right: auto;
+            padding: 20px;
+        }
+    }
+</style>
+
+</head>
+
+<body>
+    <a href="index.php">
+        <img src="./images/logo.png" alt="Logo" style="width: 100px; height: auto; margin-top: 20px; margin-left: 20px;">
+    </a>
+    <div class="video-container">
+        <video class="video-bg" src="./images/flag.mp4" muted autoplay loop></video>
+    </div>
+    <div class="content-container">
+        <h1>Welcome to Our Palestine Awareness Blog</h1>
+        <p>This blog aspires to be a platform for balanced and informative content, shedding light on the rich culture, history, and ongoing struggles of the Palestinian people.</p>
+        <p>The more people who have access to accurate information about Palestine, the more equipped we are to have constructive conversations and advocate for a just future. This blog is a space to learn, engage, and be part of a movement for positive change.</p>
+
+        <h2>Our Inspiration</h2>
+        <p>Inspired by personal experiences and a profound sense of justice, we created this platform to share stories, perspectives, and analyses that challenge misconceptions and highlight the resilience and creativity of Palestinian communities.</p>
+        <img src="./images/image1.jpeg" alt="Image representing inspiration">
+
+        <h2>Join Our Journey</h2>
+        <p>Through our blog, we hope to inspire others to join us in this journey of learning, advocacy, and solidarity.</p>
+        <img src="./images/image2.jpeg" alt="Image representing journey">
+    </div>
+
+</body>
+
+</html>

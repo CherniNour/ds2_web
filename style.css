@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+  }
+  
+  form {
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  form textarea {
+    height: auto; /* Adjust textarea height as needed */
+  }
+  
+  form button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45A049; /* Green hover effect */
+  }

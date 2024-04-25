@@ -1,0 +1,313 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "79c47a44f4fef09251a48fd2234e8b5e",
+    "packages": [
+        {
+            "name": "andcarpi/laravel-popper",
+            "version": "0.9.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andcarpi/laravel-popper.git",
+                "reference": "fd01cbc60a62acd71ff4205ae7a03820b1a9951c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andcarpi/laravel-popper/zipball/fd01cbc60a62acd71ff4205ae7a03820b1a9951c",
+                "reference": "fd01cbc60a62acd71ff4205ae7a03820b1a9951c",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "andcarpi\\Popper\\PopperServiceProvider"
+                    ],
+                    "aliases": {
+                        "Popper": "andcarpi\\Popper\\Facades\\Popper"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "andcarpi\\Popper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anderson Carpi",
+                    "email": "kustelac@yahoo.com.br"
+                }
+            ],
+            "description": "A Easy to use Laravel Package, that allows you to generate tooltips in your blade views.",
+            "keywords": [
+                "blade",
+                "laravel",
+                "laravel-package",
+                "popper",
+                "tippy",
+                "tooltip",
+                "view"
+            ],
+            "support": {
+                "issues": "https://github.com/andcarpi/laravel-popper/issues",
+                "source": "https://github.com/andcarpi/laravel-popper/tree/master"
+            },
+            "time": "2019-09-26T02:06:56+00:00"
+        },
+        {
+            "name": "components/jquery",
+            "version": "v3.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "8edc7785239bb8c2ad2b83302b856a1d61de60e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/8edc7785239bb8c2ad2b83302b856a1d61de60e7",
+                "reference": "8edc7785239bb8c2ad2b83302b856a1d61de60e7",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery.slim.js",
+                        "jquery.slim.min.js",
+                        "jquery.slim.min.map"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JS Foundation and other contributors"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "support": {
+                "forum": "http://forum.jquery.com",
+                "irc": "irc://irc.freenode.org/jquery",
+                "issues": "https://github.com/jquery/jquery/issues",
+                "source": "https://github.com/jquery/jquery",
+                "wiki": "http://docs.jquery.com/"
+            },
+            "time": "2023-09-22T01:43:46+00:00"
+        },
+        {
+            "name": "contao-components/installer",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/contao-components/installer.git",
+                "reference": "eb0c34f0f61a3338dd985a55bd865483e78c3bb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/contao-components/installer/zipball/eb0c34f0f61a3338dd985a55bd865483e78c3bb7",
+                "reference": "eb0c34f0f61a3338dd985a55bd865483e78c3bb7",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0 || ^2.0",
+                "phpunit/phpunit": "^5.7.26"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Contao\\ComponentsInstaller\\Composer\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Contao\\ComponentsInstaller\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Leo Feyer",
+                    "homepage": "https://github.com/leofeyer"
+                }
+            ],
+            "description": "Contao components installer",
+            "support": {
+                "issues": "https://github.com/contao-components/installer/issues",
+                "source": "https://github.com/contao-components/installer/tree/1.4.1"
+            },
+            "time": "2020-12-23T10:51:52+00:00"
+        },
+        {
+            "name": "jquery-form/form",
+            "version": "v4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jquery-form/form.git",
+                "reference": "fcbd5773d19a75d4b2f336df7f49788a42b71fbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jquery-form/form/zipball/fcbd5773d19a75d4b2f336df7f49788a42b71fbc",
+                "reference": "fcbd5773d19a75d4b2f336df7f49788a42b71fbc",
+                "shasum": ""
+            },
+            "require": {
+                "components/jquery": ">=1.7.2"
+            },
+            "type": "library",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "src/jquery.form.js"
+                    ],
+                    "shim": {
+                        "deps": [
+                            "jquery"
+                        ]
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(LGPL-2.1+ OR MIT)"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Morris"
+                },
+                {
+                    "name": "Mike Alsup"
+                }
+            ],
+            "description": "The jQuery Form Plugin allows you to easily and unobtrusively upgrade HTML forms to use AJAX.",
+            "homepage": "https://github.com/jquery-form/form",
+            "keywords": [
+                "ajax",
+                "form",
+                "html-form",
+                "jquery",
+                "jquery-form",
+                "jquery-plugin",
+                "json",
+                "json-form"
+            ],
+            "support": {
+                "issues": "https://github.com/jquery-form/form/issues",
+                "source": "https://github.com/jquery-form/form/tree/v4.3.0"
+            },
+            "time": "2020-06-07T04:29:46+00:00"
+        },
+        {
+            "name": "markocupic/contao-component-popper-js",
+            "version": "2.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markocupic/contao-component-popper-js.git",
+                "reference": "9d42a828236314e728783a4267fb6807542d4829"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markocupic/contao-component-popper-js/zipball/9d42a828236314e728783a4267fb6807542d4829",
+                "reference": "9d42a828236314e728783a4267fb6807542d4829",
+                "shasum": ""
+            },
+            "require": {
+                "contao-components/installer": "^1.0"
+            },
+            "type": "contao-component",
+            "extra": {
+                "contao-component-dir": "assets"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "support": {
+                "issues": "https://github.com/markocupic/contao-component-popper-js/issues",
+                "source": "https://github.com/markocupic/contao-component-popper-js/tree/2.6.0"
+            },
+            "time": "2021-02-27T20:19:26+00:00"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v5.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "6e1f75f420f68e1d52733b8e407fc7c3766c9dba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6e1f75f420f68e1d52733b8e407fc7c3766c9dba",
+                "reference": "6e1f75f420f68e1d52733b8e407fc7c3766c9dba",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v5.3.3"
+            },
+            "time": "2024-02-20T15:14:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "pc/ds2",
+    "require": {
+        "twbs/bootstrap": "^5.3",
+        "jquery-form/form": "^4.3",
+        "andcarpi/laravel-popper": "^0.9.4",
+        "markocupic/contao-component-popper-js": "^2.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "contao-components/installer": true
+        }
+    }
+}
